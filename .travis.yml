@@ -11,5 +11,7 @@ script: gulp
 addons:
   artifacts:
     debug: true
+    paths:
+      - ./test-application-1
     bucket: test-aws-bucket-appsmart
     s3_region: us-east-1

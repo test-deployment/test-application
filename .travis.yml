@@ -9,4 +9,4 @@ script: gulp
 
 addons:
   artifacts:
-    s3_region: "Mumbai"
+    s3_region: "mumbai"

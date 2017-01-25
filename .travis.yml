@@ -7,7 +7,9 @@ before_script:
   - npm install -g gulp
 script: gulp
 
+
 addons:
   artifacts:
-    s3_region: "mumbai"
-
+    debug: true
+    bucket: simplelance
+    s3_region: Mumbai

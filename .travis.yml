@@ -11,5 +11,5 @@ script: gulp
 addons:
   artifacts:
     debug: true
-    bucket: simplelance
-    s3_region: Mumbai
+    bucket: test-aws-bucket-appsmart
+    s3_region: us-east-1

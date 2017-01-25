@@ -12,8 +12,6 @@ addons:
   artifacts:
     debug: true
     paths:
-      - ./
-    target_paths: $TRAVIS_BUILD_NUMBER
-    working_dir: WORKING_DIR
+       - $(git ls-files -o| tr "\n" ":")
     bucket: test-aws-bucket-appsmart
     s3_region: us-east-1

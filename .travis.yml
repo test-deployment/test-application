@@ -11,7 +11,5 @@ script: gulp
 addons:
   artifacts:
     debug: true
-    paths:
-       - $(git ls-files -o| tr "\n" ":")
     bucket: test-aws-bucket-appsmart
     s3_region: us-east-1
